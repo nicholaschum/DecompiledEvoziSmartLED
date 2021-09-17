@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <TextView android:textColor="@color/colorTextPressed" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="@string/string_timing_power_on_alarm" android:layout_marginStart="6dp"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:paddingTop="6dp" android:paddingBottom="6dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="20dp" android:paddingEnd="20dp">
+                <TextView android:textSize="16sp" android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/string_timing_power_on_alarm" android:layout_weight="1"/>
+                <p021wl.smartled.views.SwitchButton android:id="@+id/id_sb_alarm_on" android:layout_width="wrap_content" android:layout_height="wrap_content" app:defaultStatus="0"/>
+            </LinearLayout>
+            <View android:background="@color/colorCuttingLineBK" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@+id/id_ll_time_alarm_on" android:paddingTop="6dp" android:paddingBottom="6dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="20dp" android:paddingEnd="20dp">
+                    <TextView android:textSize="16sp" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_timing_power_on_time"/>
+                    <TextView android:textSize="12sp" android:layout_gravity="center_vertical" android:id="@+id/id_tv_timing_alarm_on_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="@string/string_display_time" android:layout_marginStart="3dp"/>
+                </LinearLayout>
+                <View android:background="@color/colorCuttingLineBK" android:layout_width="match_parent" android:layout_height="1dp"/>
+                <include android:id="@+id/id_ws_alarm_on" layout="@layout/week_select"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <TextView android:textColor="@color/colorTextPressed" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_timing_power_off_alarm" android:layout_marginStart="6dp"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:paddingTop="6dp" android:paddingBottom="6dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="20dp" android:paddingEnd="20dp">
+                <TextView android:textSize="16sp" android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/string_timing_power_off_alarm" android:layout_weight="1"/>
+                <p021wl.smartled.views.SwitchButton android:id="@+id/id_sb_alarm_off" android:layout_width="wrap_content" android:layout_height="wrap_content" app:defaultStatus="0"/>
+            </LinearLayout>
+            <View android:background="@color/colorCuttingLineBK" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@+id/id_ll_time_alarm_off" android:paddingTop="6dp" android:paddingBottom="6dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="20dp" android:paddingEnd="20dp">
+                    <TextView android:textSize="16sp" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_timing_power_off_time"/>
+                    <TextView android:textSize="12sp" android:layout_gravity="center_vertical" android:id="@+id/id_tv_timing_alarm_off_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="@string/string_display_time" android:layout_marginStart="10dp"/>
+                </LinearLayout>
+                <View android:background="@color/colorCuttingLineBK" android:layout_width="match_parent" android:layout_height="1dp"/>
+                <include android:id="@+id/id_ws_alarm_off" layout="@layout/week_select"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

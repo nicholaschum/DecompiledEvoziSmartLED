@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="3" android:paddingStart="10dp">
+        <TextView android:textSize="16sp" android:ellipsize="end" android:id="@+id/id_tv_music_row_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_unknown_music" android:maxLines="1"/>
+        <TextView android:textSize="10sp" android:ellipsize="end" android:id="@+id/id_tv_music_row_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_null_music_info" android:maxLines="1"/>
+    </LinearLayout>
+    <TextView android:gravity="end" android:layout_gravity="center_vertical" android:id="@+id/id_tv_music_row_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_display_time" android:layout_weight="1"/>
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <ImageView android:layout_gravity="end" android:id="@+id/id_select_music" android:background="@drawable/ic_light_hook" android:visibility="invisible" android:layout_width="18dp" android:layout_height="18dp" android:layout_marginEnd="15dp"/>
+    </FrameLayout>
+</LinearLayout>

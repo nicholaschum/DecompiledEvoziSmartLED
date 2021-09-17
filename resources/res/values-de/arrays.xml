@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="modes">
+        <item>Farbe Rot</item>
+        <item>Farbe Blau</item>
+        <item>Farbe Grün</item>
+        <item>Farbe Cyan</item>
+        <item>Farbe Gelb</item>
+        <item>Farbe Lila</item>
+        <item>Farbe Weiß</item>
+        <item>3. Farben schnell</item>
+        <item>7. Farben schnell</item>
+        <item>3. Farben langsam</item>
+        <item>7. Farben langsam</item>
+        <item>Aufleuchten in Rot</item>
+        <item>Aufleuchten in Grün</item>
+        <item>Aufleuchten in Blau</item>
+        <item>Aufleuchten in Gelb</item>
+        <item>Aufleuchten in Cyan</item>
+        <item>Aufleuchten in Lila</item>
+        <item>Aufleuchten in Weiß</item>
+        <item>Rot-Grün abwechselnd</item>
+        <item>Rot-Blau abwechselnd</item>
+        <item>Grün-Blau abwechselnd</item>
+        <item>Stroboeffekt mit 7 Farben</item>
+        <item>Stroboeffekt in Rot</item>
+        <item>Stroboeffekt in Grün</item>
+        <item>Stroboeffekt in Blau</item>
+        <item>Stroboeffekt in Gelb</item>
+        <item>Stroboeffekt in Cyan</item>
+        <item>Stroboeffekt in Lila</item>
+        <item>Stroboeffekt in Weiß</item>
+    </array>
+</resources>

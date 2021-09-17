@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="modes">
+        <item>Rojo estático</item>
+        <item>Azul estático</item>
+        <item>Verde estático</item>
+        <item>Cian estático</item>
+        <item>Amarillo estático</item>
+        <item>Púrpura estática</item>
+        <item>Blanco estático</item>
+        <item>Cambio de salto tricolor</item>
+        <item>Cambio de salto de siete colores</item>
+        <item>Desvanecimiento cruzado tricolor</item>
+        <item>Seven Color Cross Fade</item>
+        <item>Cambio gradual rojo</item>
+        <item>Cambio gradual verde</item>
+        <item>Cambio gradual azul</item>
+        <item>Cambio gradual amarillo</item>
+        <item>Cambio gradual cian</item>
+        <item>Cambio gradual púrpura</item>
+        <item>Cambio gradual blanco</item>
+        <item>Cruz Roja Verde Desvanecerse</item>
+        <item>Cruz Roja Azul Desvanecerse</item>
+        <item>Cruz azul verde se desvanecen</item>
+        <item>Siete colores Stobe Flash</item>
+        <item>Flash estroboscópico rojo</item>
+        <item>Flash estroboscópico verde</item>
+        <item>Flash estroboscópico azul</item>
+        <item>Flash estroboscópico amarillo</item>
+        <item>Flash estroboscópico cian</item>
+        <item>Flash estroboscópico púrpura</item>
+        <item>Flash estroboscópico blanco</item>
+    </array>
+</resources>

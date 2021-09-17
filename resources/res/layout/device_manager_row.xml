@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="start" android:orientation="horizontal" android:padding="3dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@+id/id_fl_device_light_on" android:clickable="true" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginStart="33dp"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="8dp">
+        <TextView android:textSize="12sp" android:textColor="@color/colorCuttingLineTransparentBK" android:ellipsize="end" android:gravity="start" android:id="@+id/id_tv_device_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/string_no_name" android:maxLines="1"/>
+        <TextView android:textSize="10sp" android:textColor="@color/colorCuttingLineTransparentBK" android:gravity="start" android:id="@+id/id_tv_device_address" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/string_no_name" android:maxLines="1"/>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@+id/id_iv_device_connected" android:visibility="visible" android:layout_width="28dp" android:layout_height="28dp"/>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/id_pb_connection_pending" android:layout_width="32dp" android:layout_height="32dp" android:indeterminateDrawable="@drawable/progress_drawable"/>
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/id_iv_device_select" android:visibility="invisible" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginEnd="6dp"/>
+    </FrameLayout>
+</LinearLayout>

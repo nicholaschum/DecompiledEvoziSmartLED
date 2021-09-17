@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="64dp" android:paddingStart="12dp" android:paddingEnd="12dp">
+    <FrameLayout android:layout_width="60dp" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="center" android:layout_width="55dp" android:layout_height="55dp" android:src="@mipmap/ic_launcher2" android:scaleType="centerInside"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:textSize="14sp" android:textStyle="bold" android:gravity="center_vertical" android:id="@+id/id_tv_music_name" android:layout_width="match_parent" android:layout_height="20dp" android:text="@string/string_unknown_music" android:maxLines="1" android:paddingStart="20dp"/>
+                <TextView android:textSize="10sp" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/id_tv_music_info" android:layout_width="match_parent" android:layout_height="16dp" android:text="@string/string_null_music_info" android:paddingStart="22dp"/>
+            </LinearLayout>
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="match_parent">
+                <ImageView android:layout_gravity="center" android:id="@+id/id_iv_close_notification" android:layout_width="15dp" android:layout_height="15dp" android:src="@drawable/ic_ntf_music_close" android:scaleType="fitCenter"/>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="26dp">
+            <ImageView android:layout_gravity="center" android:id="@+id/id_iv_play_prev_music" android:layout_width="22dp" android:layout_height="22dp" android:src="@drawable/ic_ntf_music_play_last" android:scaleType="fitCenter"/>
+            <ImageView android:id="@+id/id_iv_play_pause_music" android:layout_width="25dp" android:layout_height="25dp" android:src="@drawable/ic_ntf_music_stop" android:scaleType="fitCenter" android:layout_marginStart="45dp"/>
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/id_iv_play_next_music" android:layout_width="22dp" android:layout_height="22dp" android:src="@drawable/ic_ntf_music_play_next" android:scaleType="fitCenter" android:layout_marginStart="45dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

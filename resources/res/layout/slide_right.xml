@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_gravity="end" android:orientation="vertical" android:id="@+id/id_ll_right_menu" android:background="@color/colorMenuBK" android:clickable="true" android:layout_width="238dp" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="start" android:id="@+id/id_iv_setting_n" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_set_n"/>
+    <LinearLayout android:gravity="center" android:id="@+id/id_ll_guide" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="28dp" android:layout_height="28dp" android:src="@drawable/ic_wenhao"/>
+        <TextView android:textSize="20sp" android:textStyle="bold" android:padding="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/string_navigation"/>
+    </LinearLayout>
+    <View android:background="@color/colorCuttingLineBK" android:layout_width="wrap_content" android:layout_height="1dp" android:layout_marginTop="5dp"/>
+    <LinearLayout android:gravity="center" android:id="@+id/id_ll_yyy" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="28dp" android:layout_height="28dp" android:src="@drawable/ic_yaoyiyao"/>
+        <TextView android:textSize="20sp" android:textStyle="bold" android:padding="15dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/string_shake_shake" android:layout_weight="1"/>
+        <p021wl.smartled.views.SwitchButton android:id="@+id/id_sb_yyy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="26dp" app:defaultStatus="0"/>
+    </LinearLayout>
+    <View android:background="@color/colorCuttingLineBK" android:layout_width="wrap_content" android:layout_height="1dp"/>
+    <LinearLayout android:gravity="center" android:id="@+id/id_ll_pin_sequence" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="28dp" android:layout_height="28dp" android:src="@drawable/ic_pin_sequence"/>
+        <TextView android:textSize="20sp" android:textStyle="bold" android:padding="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/string_pin_sequence"/>
+    </LinearLayout>
+    <View android:background="@color/colorCuttingLineBK" android:layout_width="wrap_content" android:layout_height="1dp"/>
+    <LinearLayout android:gravity="center" android:id="@+id/id_ll_about" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="28dp" android:layout_height="28dp" android:src="@drawable/ic_about"/>
+        <TextView android:textSize="20sp" android:textStyle="bold" android:padding="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/string_about"/>
+    </LinearLayout>
+    <View android:background="@color/colorCuttingLineBK" android:layout_width="wrap_content" android:layout_height="1dp"/>
+</LinearLayout>

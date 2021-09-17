@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@drawable/ic_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/layout_back_action"/>
+        <TextView android:textSize="20sp" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_about"/>
+    </FrameLayout>
+    <ImageView android:layout_gravity="center" android:id="@+id/id_iv_about_main" android:layout_width="136dp" android:layout_height="136dp" android:layout_marginTop="100dp" android:src="@mipmap/ic_launcher2"/>
+    <TextView android:textSize="28sp" android:textStyle="bold" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="56dp" android:text="@string/app_name"/>
+    <TextView android:textSize="20sp" android:textStyle="bold" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="V5.6.6-20201115"/>
+</LinearLayout>

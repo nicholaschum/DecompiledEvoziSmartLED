@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="modes">
+        <item>Rouge statique</item>
+        <item>Bleu statique</item>
+        <item>Vert statique</item>
+        <item>Cyan statique</item>
+        <item>Jaune statique</item>
+        <item>Violet statique</item>
+        <item>Blanc statique</item>
+        <item>Changement intermittent de trois couleurs</item>
+        <item>Changement intermittent de sept couleurs</item>
+        <item>Fondu en croix de trois couleurs</item>
+        <item>Fondu en croix de sept couleurs</item>
+        <item>Changement graduel de rouge</item>
+        <item>Changement graduel de vert</item>
+        <item>Changement graduel de bleu</item>
+        <item>Changement graduel de jaune</item>
+        <item>Changement graduel de cyan</item>
+        <item>Changement graduel de violet</item>
+        <item>Changement graduel de blanc</item>
+        <item>Fondu en croix de rouge-vert</item>
+        <item>Fondu en croix de rouge-bleu</item>
+        <item>Fondu en croix de vert-bleu</item>
+        <item>Flash stroboscopique de sept couleurs</item>
+        <item>Flash stroboscopique rouge</item>
+        <item>Flash stroboscopique vert</item>
+        <item>Flash stroboscopique bleu</item>
+        <item>Flash stroboscopique jaune</item>
+        <item>Flash stroboscopique cyan</item>
+        <item>Flash stroboscopique violet</item>
+        <item>Flash stroboscopique blanc</item>
+    </array>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<p021wl.smartled.views.WeekSelectView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:paddingTop="6dp" android:paddingBottom="6dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="20dp" android:paddingEnd="20dp">
+    <TextView android:textSize="16sp" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_timing_week_repeat"/>
+    <FrameLayout android:id="@+id/id_fl_week_mo" android:layout_width="0dp" android:layout_height="50dp" android:layout_weight="1" android:layout_marginStart="5dp">
+        <ImageView android:layout_gravity="center" android:layout_width="28dp" android:layout_height="28dp"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/id_fl_week_tu" android:layout_width="0dp" android:layout_height="50dp" android:layout_weight="1">
+        <ImageView android:layout_gravity="center" android:layout_width="28dp" android:layout_height="28dp"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/id_fl_week_we" android:layout_width="0dp" android:layout_height="50dp" android:layout_weight="1">
+        <ImageView android:layout_gravity="center" android:layout_width="28dp" android:layout_height="28dp"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/id_fl_week_th" android:layout_width="0dp" android:layout_height="50dp" android:layout_weight="1">
+        <ImageView android:layout_gravity="center" android:layout_width="286dp" android:layout_height="28dp"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/id_fl_week_fr" android:layout_width="0dp" android:layout_height="50dp" android:layout_weight="1">
+        <ImageView android:layout_gravity="center" android:layout_width="28dp" android:layout_height="28dp"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/id_fl_week_sa" android:layout_width="0dp" android:layout_height="50dp" android:layout_weight="1">
+        <ImageView android:layout_gravity="center" android:layout_width="28dp" android:layout_height="28dp"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/id_fl_week_su" android:layout_width="0dp" android:layout_height="50dp" android:layout_weight="1">
+        <ImageView android:layout_gravity="center" android:layout_width="28dp" android:layout_height="28dp"/>
+    </FrameLayout>
+</p021wl.smartled.views.WeekSelectView>

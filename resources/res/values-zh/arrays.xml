@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="modes">
+        <item>静态红色</item>
+        <item>静态蓝色</item>
+        <item>静态绿色</item>
+        <item>静态青色</item>
+        <item>静态黄色</item>
+        <item>静态紫色</item>
+        <item>静态白色</item>
+        <item>三色跳变</item>
+        <item>七色跳变</item>
+        <item>三色渐变</item>
+        <item>七色渐变</item>
+        <item>红色渐变</item>
+        <item>绿色渐变</item>
+        <item>蓝色渐变</item>
+        <item>黄色渐变</item>
+        <item>青色渐变</item>
+        <item>紫色渐变</item>
+        <item>白色渐变</item>
+        <item>红绿渐变</item>
+        <item>红蓝渐变</item>
+        <item>绿蓝渐变</item>
+        <item>七色频闪</item>
+        <item>红色频闪</item>
+        <item>绿色频闪</item>
+        <item>蓝色频闪</item>
+        <item>黄色频闪</item>
+        <item>青色频闪</item>
+        <item>紫色频闪</item>
+        <item>白色频闪</item>
+    </array>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="start" android:orientation="horizontal" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/id_iv_pic_group" android:layout_width="36dp" android:layout_height="36dp" android:src="@drawable/ic_light_n" android:layout_marginStart="18dp"/>
+    <TextView android:textSize="15sp" android:textStyle="bold" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@+id/id_tv_group_name" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/string_nearby_devices" android:maxLines="2" android:layout_weight="1" android:layout_marginStart="6dp"/>
+    <ImageView android:layout_gravity="bottom" android:id="@+id/id_iv_refresh" android:background="@drawable/ic_menu_rotate" android:layout_width="26dp" android:layout_height="26dp" android:layout_marginEnd="6dp"/>
+    <ImageView android:layout_gravity="bottom" android:id="@+id/id_iv_group_rename" android:background="@android:drawable/ic_menu_edit" android:layout_width="26dp" android:layout_height="26dp" android:layout_marginEnd="6dp"/>
+    <ImageView android:layout_gravity="bottom" android:id="@+id/id_iv_device_add" android:background="@drawable/ic_menu_add" android:layout_width="26dp" android:layout_height="26dp" android:layout_marginEnd="6dp"/>
+    <FrameLayout android:layout_gravity="bottom" android:id="@+id/id_fl_group_select" android:layout_width="28dp" android:layout_height="28dp">
+        <ImageView android:layout_gravity="center" android:background="@drawable/ic_light_hook" android:layout_width="22dp" android:layout_height="22dp"/>
+    </FrameLayout>
+</LinearLayout>

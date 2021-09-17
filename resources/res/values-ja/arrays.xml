@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="modes">
+        <item>赤色</item>
+        <item>青色</item>
+        <item>緑色</item>
+        <item>水色</item>
+        <item>黄色</item>
+        <item>紫色</item>
+        <item>白色</item>
+        <item>三色切り替え</item>
+        <item>七色切り替え</item>
+        <item>三色グラデーション</item>
+        <item>七色グラデーション</item>
+        <item>赤色呼吸モード</item>
+        <item>緑色呼吸モード</item>
+        <item>青色呼吸モード</item>
+        <item>黄色呼吸モード</item>
+        <item>水色呼吸モード</item>
+        <item>紫色呼吸モード</item>
+        <item>白色呼吸モード</item>
+        <item>赤緑グラデーション</item>
+        <item>赤青グラデーション</item>
+        <item>緑青グラデーション</item>
+        <item>七色点滅</item>
+        <item>赤色点滅</item>
+        <item>緑色点滅</item>
+        <item>青色点滅</item>
+        <item>黄色点滅</item>
+        <item>水色点滅</item>
+        <item>紫色点滅</item>
+        <item>白色点滅</item>
+    </array>
+</resources>

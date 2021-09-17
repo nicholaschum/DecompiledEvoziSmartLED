@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="modes">
+        <item>Rosso Statico</item>
+        <item>Blu Statico</item>
+        <item>Verde Statico</item>
+        <item>Ciano Statico</item>
+        <item>Giallo Statico</item>
+        <item>Viola Statico</item>
+        <item>Bianco Statico</item>
+        <item>Cambio di Barlume di Tre Colori</item>
+        <item>Cambio di Barlume di Sette Colori</item>
+        <item>Gradiente Tricolore</item>
+        <item>Gradiente di Sette Colori</item>
+        <item>Gradiente Rosso</item>
+        <item>Gradiente Verde</item>
+        <item>Gradiente Blu</item>
+        <item>Gradiente Giallo</item>
+        <item>Gradiente Ciano</item>
+        <item>Gradiente Viola</item>
+        <item>Gradiente Bianco</item>
+        <item>Gradiente Rosso e Verde</item>
+        <item>Gradiente Rosso e Blu</item>
+        <item>Gradiente Blu e Verde</item>
+        <item>Strobo a Sette Colori</item>
+        <item>Strobo Rosso</item>
+        <item>Strobo Verde</item>
+        <item>Strobo Blu</item>
+        <item>Strobo Giallo</item>
+        <item>Strobo Ciano</item>
+        <item>Strobo Viola</item>
+        <item>Strobo Bianca</item>
+    </array>
+</resources>

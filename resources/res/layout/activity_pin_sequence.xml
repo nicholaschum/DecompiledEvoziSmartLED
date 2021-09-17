@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@drawable/ic_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/layout_back_action"/>
+        <TextView android:textSize="20sp" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_pin_sequence"/>
+    </FrameLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <ImageView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/id_iv_pin_sequence_send" android:layout_width="110dp" android:layout_height="190dp" android:src="@drawable/ic_pin_sequence_send_invalid"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="280dp" android:layout_height="18dp" android:src="@drawable/ic_pin_sequence_top"/>
+        <LinearLayout android:layout_gravity="center_horizontal" android:layout_width="280dp" android:layout_height="70dp">
+            <FrameLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="36dp" android:layout_height="match_parent" android:src="@drawable/ic_pin_sequence_pn"/>
+            </FrameLayout>
+            <FrameLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@+id/id_iv_pin_sequence_display_r" android:layout_width="36dp" android:layout_height="match_parent" android:src="@drawable/ic_pin_sequence_pr"/>
+            </FrameLayout>
+            <FrameLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@+id/id_iv_pin_sequence_display_g" android:layout_width="36dp" android:layout_height="match_parent" android:src="@drawable/ic_pin_sequence_pg"/>
+            </FrameLayout>
+            <FrameLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@+id/id_iv_pin_sequence_display_b" android:layout_width="36dp" android:layout_height="match_parent" android:src="@drawable/ic_pin_sequence_pb"/>
+            </FrameLayout>
+            <FrameLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="36dp" android:layout_height="match_parent" android:src="@drawable/ic_pin_sequence_pn"/>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="285dp" android:layout_height="0dp" android:layout_weight="1">
+        <FrameLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1.2">
+            <ImageView android:layout_gravity="start" android:layout_width="45dp" android:layout_height="45dp" android:src="@drawable/ic_pin_sequence_l"/>
+        </FrameLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginTop="16dp" android:layout_weight="4">
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@+id/id_iv_pin_r00" android:layout_width="50dp" android:layout_height="50dp" android:src="@drawable/ic_pin_r_up"/>
+                <ImageView android:layout_gravity="center_horizontal" android:id="@+id/id_iv_pin_r10" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginTop="10dp" android:src="@drawable/ic_pin_g_up"/>
+                <ImageView android:layout_gravity="center_horizontal" android:id="@+id/id_iv_pin_r20" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginTop="10dp" android:src="@drawable/ic_pin_b_up"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@+id/id_iv_pin_r01" android:layout_width="50dp" android:layout_height="50dp" android:src="@drawable/ic_pin_r_up"/>
+                <ImageView android:layout_gravity="center_horizontal" android:id="@+id/id_iv_pin_r11" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginTop="10dp" android:src="@drawable/ic_pin_g_up"/>
+                <ImageView android:layout_gravity="center_horizontal" android:id="@+id/id_iv_pin_r21" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginTop="10dp" android:src="@drawable/ic_pin_b_up"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@+id/id_iv_pin_r02" android:layout_width="50dp" android:layout_height="50dp" android:src="@drawable/ic_pin_r_up"/>
+                <ImageView android:layout_gravity="center_horizontal" android:id="@+id/id_iv_pin_r12" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginTop="10dp" android:src="@drawable/ic_pin_g_up"/>
+                <ImageView android:layout_gravity="center_horizontal" android:id="@+id/id_iv_pin_r22" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginTop="10dp" android:src="@drawable/ic_pin_b_up"/>
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1.2">
+            <ImageView android:layout_gravity="end" android:layout_width="45dp" android:layout_height="45dp" android:src="@drawable/ic_pin_sequence_r"/>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

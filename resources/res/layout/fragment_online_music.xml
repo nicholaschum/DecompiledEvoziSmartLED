@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <p021wl.smartled.views.DragGridView android:gravity="center" android:id="@+id/dragGridView" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="0dp" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:numColumns="4" android:layout_weight="1" app:drag_last_position="true" app:drag_scale="1.2" app:drag_start_position="0" app:scale_mill="200" app:vibrator="true"/>
+</LinearLayout>

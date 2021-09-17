@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/relative_layout_bg" android:background="@drawable/bg_switch_bottom_open" android:layout_width="64dp" android:layout_height="32dp">
+    <View android:id="@+id/view_scroll" android:background="@drawable/bg_switch_top_open" android:layout_width="32dp" android:layout_height="32dp"/>
+</RelativeLayout>

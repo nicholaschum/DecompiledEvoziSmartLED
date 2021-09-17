@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<p021wl.smartled.views.ScrollTabView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/colorTopAndBottomBK" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="center_vertical" android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/ic_chevron_left"/>
+    <HorizontalScrollView android:scrollbars="none" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@+id/id_ll_color_change" android:layout_width="0dp" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:id="@+id/id_iv_color_change" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_adjust_u"/>
+                <TextView android:textColor="@color/colorTextNormal" android:layout_gravity="center" android:id="@+id/id_tv_color_change" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_color_change" android:maxLines="1"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/id_ll_mode" android:layout_width="0dp" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:id="@+id/id_iv_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_mod_u"/>
+                <TextView android:textColor="@color/colorTextNormal" android:layout_gravity="center" android:id="@+id/id_tv_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_mode" android:maxLines="1"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/id_ll_music" android:layout_width="0dp" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:id="@+id/id_iv_music" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_music_u"/>
+                <TextView android:textColor="@color/colorTextNormal" android:layout_gravity="center" android:id="@+id/id_tv_music" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_music" android:maxLines="1"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/id_ll_l_music" android:layout_width="0dp" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:id="@+id/id_iv_l_music" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_l_music_u"/>
+                <TextView android:textColor="@color/colorTextNormal" android:layout_gravity="center" android:id="@+id/id_tv_l_music" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_l_music" android:maxLines="1"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/id_ll_streaming" android:layout_width="0dp" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:id="@+id/id_iv_streaming" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_recording_u"/>
+                <TextView android:textColor="@color/colorTextNormal" android:layout_gravity="center" android:id="@+id/id_tv_streaming" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_streaming" android:maxLines="1"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/id_ll_timing" android:layout_width="0dp" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:id="@+id/id_iv_timing" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_timing_u"/>
+                <TextView android:textColor="@color/colorTextNormal" android:layout_gravity="center" android:id="@+id/id_tv_timing" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_timing" android:maxLines="1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <ImageView android:layout_gravity="center_vertical" android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/ic_chevron_right"/>
+</p021wl.smartled.views.ScrollTabView>

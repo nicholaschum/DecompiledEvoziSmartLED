@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="modes">
+        <item>Static Red</item>
+        <item>Static Blue</item>
+        <item>Static Green</item>
+        <item>Static Cyan</item>
+        <item>Static Yellow</item>
+        <item>Static Purple</item>
+        <item>Static White</item>
+        <item>Three Color Jumping Change</item>
+        <item>Seven Color Jumping Change</item>
+        <item>Three Color Cross Fade</item>
+        <item>Seven Color Cross Fade</item>
+        <item>Red Gradual Change</item>
+        <item>Green Gradual Change</item>
+        <item>Blue Gradual Change</item>
+        <item>Yellow Gradual Change</item>
+        <item>Cyan Gradual Change</item>
+        <item>Purple Gradual Change</item>
+        <item>White Gradual Change</item>
+        <item>Red Green Cross Fade</item>
+        <item>Red Blue Cross Fade</item>
+        <item>Green Blue Cross Fade</item>
+        <item>Seven color Stobe Flash</item>
+        <item>Red Strobe Flash</item>
+        <item>Green Strobe Flash</item>
+        <item>Blue Strobe Flash</item>
+        <item>Yellow Strobe Flash</item>
+        <item>Cyan Strobe Flash</item>
+        <item>Purple Strobe Flash</item>
+        <item>White Strobe Flash</item>
+    </array>
+</resources>

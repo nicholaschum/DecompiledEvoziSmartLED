@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="7">
+        <ImageButton android:id="@+id/id_change_mode" android:background="@drawable/ic_small_wheel" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginTop="10dp" android:layout_marginStart="20dp"/>
+        <p021wl.smartled.views.SwitchButton android:layout_gravity="end" android:id="@+id/id_sb_rgbw_onoff" android:layout_width="56dp" android:layout_height="30dp" android:layout_marginTop="10dp" android:layout_marginEnd="16dp" app:defaultStatus="1"/>
+        <p021wl.smartled.views.RainbowPalette android:layout_gravity="center" android:id="@+id/id_palette" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ic_background="@drawable/ic_big_solorwheel"/>
+        <include layout="@layout/layout_rgb_ajust_button"/>
+    </FrameLayout>
+    <View android:background="@color/colorCuttingLineBK" android:layout_width="wrap_content" android:layout_height="1dp" android:layout_marginTop="8dp"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="25dp" android:paddingRight="25dp" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="0.9">
+        <ImageView android:layout_gravity="center_vertical" android:background="@drawable/ic_bsun" android:layout_width="10dp" android:layout_height="10dp"/>
+        <SeekBar android:layout_gravity="center_vertical" android:id="@+id/id_sb_brightness_change" android:layout_width="0dp" android:layout_height="wrap_content" android:max="100" android:progress="100" android:layout_weight="1"/>
+        <ImageView android:layout_gravity="center_vertical" android:background="@drawable/ic_bsun" android:layout_width="16dp" android:layout_height="16dp"/>
+    </LinearLayout>
+    <View android:background="@color/colorCuttingLineBK" android:layout_width="wrap_content" android:layout_height="1dp"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="5dp" android:layout_weight="1.3" android:layout_marginStart="6dp">
+        <TextView android:textSize="12sp" android:textColor="@color/colorTextNormal" android:layout_gravity="center_vertical" android:layout_width="46dp" android:layout_height="wrap_content" android:text="@string/string_custom"/>
+        <p021wl.smartled.adapter.ColorSelectorAdapter android:layout_gravity="center" android:id="@+id/id_color_customized_select" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" app:color_customized="2"/>
+    </LinearLayout>
+    <View android:background="@color/colorCuttingLineBK" android:layout_width="wrap_content" android:layout_height="1dp" android:layout_marginTop="5dp"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="5dp" android:layout_weight="1.3" android:layout_marginStart="6dp">
+        <TextView android:textSize="12sp" android:textColor="@color/colorTextNormal" android:layout_gravity="center_vertical" android:layout_width="46dp" android:layout_height="wrap_content" android:text="@string/string_typical"/>
+        <p021wl.smartled.adapter.ColorSelectorAdapter android:layout_gravity="center" android:id="@+id/id_color_default_select" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" app:color_customized="1"/>
+    </LinearLayout>
+</LinearLayout>
